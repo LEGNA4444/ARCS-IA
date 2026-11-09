@@ -51,3 +51,4 @@ Al finalizar tu intervención:
 * **Bloqueo de Dependencias:** Está estrictamente prohibido instalar nuevas librerías, paquetes externos o dependencias globales sin autorización previa en el chat.
 * **Prohibición de Acciones Destructivas:** No ejecutes comandos destructivos ni elimines carpetas/archivos del proyecto sin autorización explícita.
 * **Limpieza de Código:** Evita dejar código muerto, funciones huérfanas, parches complejos o "código basura". Si refactorizas, limpia por completo lo que ya no se use para facilitar la depuración futura.
+
