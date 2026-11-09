@@ -1,5 +1,14 @@
+root {
+    --text-color: rgb(85,85,85);
+    --background-color: #f9f9f9;
+}
+
+
 body { 
-    font-family:sans-serif; max-width: 520px; margin: 20px auto; padding: 0 12px; }
+    font-family:sans-serif; max-width: 520px; margin: 20px auto; padding: 0 12px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+     border: 1px solid #ddd; border-radius: 4px; }
 label { 
     display: block; margin: 8px 0; }
 input[type=text] { 
@@ -9,8 +18,8 @@ button {
     padding: 10px 16px; margin-top: 12px; }
 #mensaje { 
     margin-top: 12px; font-weight: bold; }
-.ok { color: green; }
-.error { color: red; }
+.ok { color: rgb(0, 200, 0)}; 
+.error { color: rgb(200, 0, 0)}; 
 
 /* Registro de cambios
 Fecha/hora UTC: 2026-11-09 20:57
