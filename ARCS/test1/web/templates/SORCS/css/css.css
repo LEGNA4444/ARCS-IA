@@ -1,6 +1,6 @@
 root {
-    --text-color: rgb(85,85,85);
-    --background-color: #f9f9f9;
+    --text-color: rgb(55,55,55);
+    --background-color: rgb(240,240,240);
 }
 
 
@@ -8,7 +8,8 @@ body {
     font-family:sans-serif; max-width: 520px; margin: 20px auto; padding: 0 12px;
     background-color: var(--background-color);
     color: var(--text-color);
-     border: 1px solid #ddd; border-radius: 4px; }
+     border: 1px solid #ddd; border-radius: 4px;
+    text-align: center; }
 label { 
     display: block; margin: 8px 0; }
 input[type=text] { 
