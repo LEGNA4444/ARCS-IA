@@ -1,0 +1,22 @@
+body { 
+    font-family:sans-serif; max-width: 520px; margin: 20px auto; padding: 0 12px; }
+label { 
+    display: block; margin: 8px 0; }
+input[type=text] { 
+    width: 100%; 
+    padding: 8px; box-sizing: border-box; }
+button { 
+    padding: 10px 16px; margin-top: 12px; }
+#mensaje { 
+    margin-top: 12px; font-weight: bold; }
+.ok { color: green; }
+.error { color: red; }
+
+/* Registro de cambios
+Fecha/hora UTC: 2026-11-09 20:57
+Versión del proyecto: no especificada
+Modelo: GPT-6
+Tiempo estimado de modificación: menos de 1 minuto
+Detalles técnicos: hoja CSS inicial para la página de registro; se conservó el contenido proporcionado.
+Siguiente sesión: comprobar carga de CSS desde la plantilla en el servidor Flask.
+*/
