@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="arcs-token" content="{{ token }}">
+  <title>Registro de ARCS</title>
+  <link rel="stylesheet" href="SORCS/css/css.css">
+</head>
+<body>
+  <h1>Registro de ARCS</h1>
+  <p>Versión de términos: {{ version }}</p>
+
+  <div id="terminos"></div>
+
+  <form id="form">
+    <label>Nombre de usuario (2 a 32 caracteres: letras minúsculas, números, _ o -)
+      <input type="text" id="nombre" required>
+    </label>
+    <label><input type="checkbox" id="edad"> Confirmo que tengo 18 años o más</label>
+    <div id="permisos"></div>
+    <button type="submit">Crear cuenta</button>
+  </form>
+
+  <div id="mensaje"></div>
+
+  <hr>
+  <h2>Borrar cuenta</h2>
+  <input type="text" id="nombre_borrar" placeholder="nombre de la cuenta">
+  <label><input type="checkbox" id="confirmo_borrar"> Entiendo que se borrará todo</label>
+  <button id="borrar">Borrar cuenta</button>
+
+  <script src="SORCS/js/js.js"></script>
+</body>
+</html>
+
+<!-- Registro de cambios
+Fecha/hora UTC: 2026-11-09 20:57
+Versión del proyecto: no especificada
+Modelo: GPT-6
+Tiempo estimado de modificación: menos de 1 minuto
+Detalles técnicos: plantilla HTML de registro; se corrigió la ruta JavaScript a SORCS/js/js.js para coincidir con la estructura solicitada.
+Siguiente sesión: verificar que Flask sirva esta plantilla y que las rutas de recursos estáticos coincidan con su configuración.
+-->
