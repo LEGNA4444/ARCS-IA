@@ -1,0 +1,17 @@
+{
+ "garli": {
+  "nombre": "Garli",
+  "hechos": [
+   {
+    "texto": "tiene 28 años y vive en sonora",
+    "forma": "predicado",
+    "primera_persona": false,
+    "original": "garli tiene 28 años y vive en sonora",
+    "dijo": "legnar",
+    "fecha": "2026-11-08T20:02:06"
+   }
+  ],
+  "creado": "2026-11-08T20:02:06",
+  "actualizado": "2026-11-08T20:02:06"
+ }
+}
