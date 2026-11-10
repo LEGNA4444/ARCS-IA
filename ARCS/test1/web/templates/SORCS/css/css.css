@@ -21,7 +21,8 @@ body {
 }
 
 #arcs-logo {
-    width: 64px; height: 64px; position: fixed; top: 20px; left: 24px;
+    width: 64px; height: 64px;
+     top: 20px; left: 24px;
 }
 
 label { 
