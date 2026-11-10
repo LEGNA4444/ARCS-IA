@@ -9,7 +9,10 @@ body {
     background-color: var(--background-color);
     color: var(--text-color);
      border: 1px solid #ddd; border-radius: 4px;
-    text-align: center; }
+    text-align: center; 
+    align-items: center; justify-content: center;
+    
+}
   
 #lpp-logo {
     width: 96px; height: 96px; vertical-align:middle; margin-right: 8px;
