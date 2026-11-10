@@ -1,6 +1,6 @@
 root {
-    --text-color: rgb(55,55,55);
-    --background-color: rgb(240,240,240);
+    --text-color: rgb(240,240,240);
+    --background-color: rgb(55,55,55);
 }
 
 
@@ -22,7 +22,7 @@ body {
 
 #arcs-logo {
     width: 64px; height: 64px;
-     top: 20px; left: 24px;
+    top: 20px; left: 24px;
 }
 
 label { 
