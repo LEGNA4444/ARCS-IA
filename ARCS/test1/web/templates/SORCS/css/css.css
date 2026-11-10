@@ -12,12 +12,12 @@ body {
     text-align: center; }
   
 #lpp-logo {
-    width: 24px; height: 48px; vertical-align: middle; margin-left: 8px;
+    width: 48px; height: 48px; vertical-align: middle; margin-left: 8px;
 
 }
 
 #arcs-logo {
-    width: 24px; height: 34px; vertical-align: middle; margin-right: 8px;
+    width: 34px; height: 34px; vertical-align: middle; margin-right: 8px;
     position:fixed; top: 20px; left: 20px;
 }
 
