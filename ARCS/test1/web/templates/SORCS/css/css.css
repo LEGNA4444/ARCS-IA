@@ -12,7 +12,7 @@ body {
     text-align: center; }
   
 #lpp-logo {
-    width: 48px; height: 48px; vertical-align: middle; margin-left: 8px;
+    width: 96px; height: 96px; position:fixed; top: 20px; right: 14px;
 
 }
 
